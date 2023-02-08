@@ -130,7 +130,6 @@ void PrintNewMass(int[,] NewMass)
 FillMass(mass);
 PrintMass(mass);
 CheckMass(mass);
-Console.WriteLine(numb1 + " " + numb2);
 ChangeMass(mass);
 FillNewMass(NewMass);
 Console.WriteLine();
