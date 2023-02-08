@@ -46,7 +46,7 @@ void CreatArrays()
         }
     }
     symbolArray = new char[k];
-    numbers = new int [k];
+    numbers = new int[k];
 }
 
 void CheckArray(char[] symbols)
@@ -98,9 +98,9 @@ void SortArrays()
             count++;
         }
     }
-    k = k-count;
+    k = k - count;
     Array.Resize(ref numbers, k);
-    Array.Resize(ref symbolArray,k);
+    Array.Resize(ref symbolArray, k);
 }
 
 void PrintResult()
